@@ -1,0 +1,48 @@
+---
+BasedOnStyle: LLVM
+AccessModifierOffset: 0
+AlignConsecutiveAssignments:
+  Enabled: true
+  AcrossComments: true
+  AlignCompound: true
+  AlignFunctionPointers: true
+AlignConsecutiveBitFields:
+  Enabled: true
+AlignConsecutiveDeclarations:
+  Enabled: true
+  AcrossComments: true
+  AlignFunctionPointers: true
+  PadOperators: true
+AlignConsecutiveMacros:
+  Enabled: true
+  AcrossComments: true
+  AlignCompound: true
+  AlignFunctionPointers: true
+AlignConsecutiveShortCaseStatements:
+  Enabled: true
+  AcrossComments: true
+  AlignCaseColons: true
+AllowShortBlocksOnASingleLine: Always
+AllowShortCaseLabelsOnASingleLine: true
+AllowShortIfStatementsOnASingleLine: AllIfsAndElse
+AllowShortLoopsOnASingleLine: true
+AlwaysBreakBeforeMultilineStrings: true
+BitFieldColonSpacing: Before
+BreakBeforeConceptDeclarations: Allowed
+BreakBeforeInlineASMColon: Always
+BreakConstructorInitializers: AfterColon
+BreakInheritanceList: AfterColon
+IncludeBlocks: Regroup
+IndentExternBlock: Indent
+IndentPPDirectives: BeforeHash
+IndentRequiresClause: false
+IndentWidth: 4
+InsertBraces: true
+InsertNewlineAtEOF: true
+LineEnding: LF
+PointerAlignment: Left
+SpaceBeforeCpp11BracedList: true
+SpaceBeforeCtorInitializerColon: false
+SpaceBeforeInheritanceColon: false
+SpacesInContainerLiterals: false
+TabWidth: 4
