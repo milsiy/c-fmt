@@ -8,6 +8,7 @@ AlignConsecutiveAssignments:
   AlignFunctionPointers: true
 AlignConsecutiveBitFields:
   Enabled: true
+  AcrossComments: true
 AlignConsecutiveDeclarations:
   Enabled: true
   AcrossComments: true
@@ -27,7 +28,7 @@ AllowShortCaseLabelsOnASingleLine: true
 AllowShortIfStatementsOnASingleLine: AllIfsAndElse
 AllowShortLoopsOnASingleLine: true
 AlwaysBreakBeforeMultilineStrings: true
-BitFieldColonSpacing: Before
+BitFieldColonSpacing: After
 BreakBeforeConceptDeclarations: Allowed
 BreakBeforeInlineASMColon: Always
 BreakConstructorInitializers: AfterColon
@@ -45,4 +46,3 @@ SpaceBeforeCpp11BracedList: true
 SpaceBeforeCtorInitializerColon: false
 SpaceBeforeInheritanceColon: false
 SpacesInContainerLiterals: false
-TabWidth: 4
